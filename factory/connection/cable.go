@@ -9,10 +9,6 @@ type CableConnection struct {
 	data []byte
 }
 
-func newCableConnection() *CableConnection {
-	return new(CableConnection)
-}
-
 func (b CableConnection) Connect() {
 	fmt.Println("Cable connected!")
 }

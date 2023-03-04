@@ -9,10 +9,6 @@ type BluetoothConnection struct {
 	data []byte
 }
 
-func newBluetoothConnection() *BluetoothConnection {
-	return new(BluetoothConnection)
-}
-
 func (b BluetoothConnection) Connect() {
 	fmt.Println("Bluetooth connected!")
 }
